@@ -70,7 +70,11 @@ $prc1 = 5000;
                 ?> %!!!</p>
             </div>
             <div><?#таймер?>
-                <script src="//megatimer.ru/get/8791a8b32bc81e18b84092312380e304.js"></script>
+                <script src="<?
+                   if(isset($_SESSION['disc'])){
+                      echo("//megatimer.ru/get/8791a8b32bc81e18b84092312380e304.js");
+                   }
+                   ?>"></script>
             </div>
         </div>
     </div>
