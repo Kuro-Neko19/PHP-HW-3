@@ -1,0 +1,436 @@
+.hidden {
+    display: none;
+}
+
+.logreg {
+    height: 50px;
+    width: 220px;
+    background-color: yellow;
+    float: right;
+    
+}
+
+.profile {
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    float: right;
+}
+
+.prof {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.content{
+    height: 140px;
+    width: 190px;
+    background-color: red;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+.mainpanel {
+    display: inline-flex;
+    height: 50px;
+    width: 500px;
+    margin-top: 10px;
+    background-color: red;
+    margin-left: 35%;
+}
+
+button {
+    background-color: aqua;
+    height: 45px;
+    width: 100px;
+}
+
+.detail {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main {
+    width: 1500px;
+    height: 1500px;
+    background-color: grey;
+    margin-top: 50px;
+    margin-left: 200px;
+
+    font-size: 20px;
+}
+
+.mainp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 450px);
+    column-gap: 37.5px;
+}
+
+
+
+.cell1 {
+    background-image: url(../Res/img1.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 37.5px;
+    margin-right: 25px;
+    padding-top: 150px;
+
+    border-radius: 20px;
+}
+
+.cell11 {
+    width: 200px;
+    height: 250px;
+    margin-left: 125px;
+    background-color: rgba(255, 255, 0, 0.75);
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+}
+
+.cell111 {
+    width: 130px;
+    height: 50px;
+    background-color: #008000;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.cell1:hover .cell11{
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.cell1:hover .cell111{
+    background-color: aquamarine;
+}
+
+
+
+
+.cell2 {
+    background-image: url(../Res/img2.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 150px;
+
+    border-radius: 20px;
+}
+
+.cell21 {
+    width: 200px;
+    height: 250px;
+    margin-left: 125px;
+    background-color: rgba(255, 255, 0, 0.75);
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+}
+
+.cell211 {
+    width: 130px;
+    height: 50px;
+    background-color: #008000;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.cell2:hover .cell21{
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.cell2:hover .cell211{
+    background-color: aquamarine;
+}
+
+
+
+
+.cell3 {
+    background-image: url(../Res/img3.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 150px;
+
+    border-radius: 20px;
+}
+
+.cell31 {
+    width: 200px;
+    height: 250px;
+    margin-left: 125px;
+    background-color: rgba(255, 255, 0, 0.75);
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+}
+
+.cell311 {
+    width: 130px;
+    height: 50px;
+    background-color: #008000;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.cell3:hover .cell31{
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.cell3:hover .cell311{
+    background-color: aquamarine;
+}
+
+
+a{
+    color: white;
+}
+
+.cell4:hover > a {
+    color: red;
+}
+
+.cell4 {
+    margin-top: 20px;
+    margin-left: 45%;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+
+    border: 3px double;
+    border-color: black;
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px white;
+}
+
+.cell4:hover {
+    background-color: rgb(89, 89, 252);
+    border: 3px solid;
+    border-color: white;
+}
+
+
+
+
+.cell5 {
+    width: 450px;
+    height: 325px;
+    margin-top: 10px;
+    margin-left: 37.5px;
+    margin-right: 25px;
+    padding-top: 125px;
+    background-color: rgb(255, 228, 196);
+
+    border-radius: 20px;
+}
+
+.cell51 {
+    width: 200px;
+    height: 150px;
+    margin-left: 125px;
+    background-color: rgba(255, 166, 0, 0.75);
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+}
+
+.cell511 {
+    width: 130px;
+    height: 50px;
+    background-color: #008000;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.cell5:hover {
+    background-color: rgba(255, 228, 196, 0.75);
+}
+
+.cell5:hover .cell51{
+    background-color: rgba(255, 166, 0, 1);
+}
+
+.cell5:hover .cell511{
+    background-color: aquamarine;
+}
+
+
+
+
+.cell6 {
+    width: 450px;
+    height: 325px;
+    margin-top: 10px;
+    margin-left: 37.5px;
+    margin-right: 25px;
+    padding-top: 125px;
+    background-color: rgb(255, 228, 196);
+
+    border-radius: 20px;
+}
+
+.cell61 {
+    width: 200px;
+    height: 150px;
+    margin-left: 125px;
+    background-color: rgba(255, 166, 0, 0.75);
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+}
+
+.cell611 {
+    width: 130px;
+    height: 50px;
+    background-color: #008000;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.cell6:hover {
+    background-color: rgba(255, 228, 196, 0.75);
+}
+
+.cell6:hover .cell61{
+    background-color: rgba(255, 166, 0, 1);
+}
+
+.cell6:hover .cell611{
+    background-color: aquamarine;
+}
+
+
+
+
+.cell7 {
+    width: 450px;
+    height: 325px;
+    margin-top: 10px;
+    margin-left: 37.5px;
+    margin-right: 25px;
+    padding-top: 125px;
+    background-color: rgb(255, 228, 196);
+
+    border-radius: 20px;
+}
+
+.cell71 {
+    width: 200px;
+    height: 150px;
+    margin-left: 125px;
+    background-color: rgba(255, 166, 0, 0.75);
+    text-align: center;
+    padding-top: 50px;
+
+    font-size: 20px;
+
+    border-radius: 10px;
+}
+
+.cell711 {
+    width: 130px;
+    height: 50px;
+    background-color: #008000;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.cell7:hover {
+    background-color: rgba(255, 228, 196, 0.75);
+}
+
+.cell7:hover .cell71{
+    background-color: rgba(255, 166, 0, 1);
+}
+
+.cell7:hover .cell711{
+    background-color: aquamarine;
+}
+
+.cell8:hover > a {
+    color: red;
+}
+
+.cell8 {
+    margin-top: 20px;
+    margin-left: 45%;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+
+    border: 3px double;
+    border-color: black;
+    border-radius: 10px;
+
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px white;
+}
+
+.cell8:hover {
+    background-color: rgb(89, 89, 252);
+    border: 3px solid;
+    border-color: white;
+}
